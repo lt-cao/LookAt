@@ -1,0 +1,20 @@
+# SwiftPM and local build products
+.build/
+DerivedData/
+work/
+
+# Packaged app artifacts are distributed separately from source
+outputs/
+*.app/
+*.dmg
+*.pkg
+*.zip
+
+# macOS metadata
+.DS_Store
+*.obsoleted
+*.obsolete
+
+# Local IDE/user state
+xcuserdata/
+*.xcuserstate
