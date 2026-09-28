@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .executableTarget(
             name: "LookAt",
-            path: "Sources/TaoView"
+            path: "Sources/LookAt"
         ),
         .testTarget(
             name: "LookAtTests",
